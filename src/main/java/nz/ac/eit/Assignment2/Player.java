@@ -1,6 +1,5 @@
 package nz.ac.eit.Assignment2;
 
-import java.util.*;
 import static nz.ac.eit.Assignment2.Dice.*;
 import static nz.ac.eit.Assignment2.Game.*;
 import static nz.ac.eit.Assignment2.Main.*;
@@ -17,13 +16,11 @@ public class Player {
             if (playerSum > 21) {
                 System.out.println("You lost by exceeded 21");
                 computerWin++;
-                winStreak = 0;
                 game();
             }
             if (playerSum == 21) {
                 System.out.println("Blackjack you win!");
                 winCounter++;
-                winStreak++;
                 game();
             }
 
