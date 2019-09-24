@@ -1,6 +1,6 @@
 package nz.ac.eit.Assignment2;
 
-import static nz.ac.eit.Assignment2.Main.*;
+import static nz.ac.eit.Assignment2.Dealer.*;
 import static nz.ac.eit.Assignment2.Player.*;
 
 public class Game {
@@ -19,7 +19,7 @@ public class Game {
             switch (gameInput) {
                 case "y":
                     player();
-                    computerThrow();
+                    dealerThrow();
                     break;
 
                 default:
@@ -31,6 +31,6 @@ public class Game {
     }
 
     public static void results(){
-        System.out.printf("\nYou have played:\t%d times\nGames won:\t%d \nGames lost:\t%d \n", gameCounter, winCounter, computerWin);
+        System.out.printf("\nYou have played:\t%d times\nGames won:\t%d \nGames lost:\t%d \n", gameCounter, winCounter, dealerWin);
     }
 }
