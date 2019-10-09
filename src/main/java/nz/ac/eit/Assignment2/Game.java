@@ -8,7 +8,7 @@ public class Game {
         boolean gameLoop = true;
         while (gameLoop) {
             if (gameCounter == 0) {
-                System.out.println("Welcome to the Blackjack Dice game" + "\n" + "Would you like to start the game? y/n");
+                System.out.println("Welcome to the Blackjack Die game" + "\n" + "Would you like to start the game? y/n");
             } else {
                 results();
                 System.out.println("Would like to play again?\ty/n");
