@@ -3,4 +3,20 @@ Blackjack Die game.
 The game requirements and conditions:
 1- Coding a Blackjack die game in Java language.
 2- The game design without interface (Console only).
-3- Start the game and then the user will get a welcome message "Welcome to the Blackjack Die game".
+3- The console game have 4 class (Dealer & Dice & Player & Game).
+4- The game have Dealer and 1 player and 2 Dice.
+5- Start the game and then the user will get a welcome message "Welcome to the Blackjack Die game".
+6- After that the user will get start game message "Would you like to start the game? y/n".
+7- If player choose "n" option then the game will end with the message "Goodbye".
+8- If player choose "y" option then the game will start round.
+9- Now the player can start the round by throw the dice and get the result.
+10- The player can hits again the dice to get another number to Sum with the previous number.
+11- The player can hits dice until get 21 or the nearest number to 21 then the player can decide to hold.
+12- After that the Dealer will hits the dice to bit the player number.
+13- If player get 21 the win message will show up and if Dealer get 21 a lose message will show up.
+14- If player hit dice and exceeded 21 lose message will show up.
+15- If Dealer hit dice and exceeded 21 win message will show up.
+16- The game console will show you how many rounds you play (e.g. 1 time or 2 times or 3 times).
+17- The game console will show you at the end of round a small table include how many time the player win & lost.
+18- The game console at the end of round will ask if the player want to play again another round.
+19- If player choose "y" then will start another round or if choose "n" then the game will end with the message "Goodbye".
