@@ -12,7 +12,7 @@ public class Dealer {
         game();
     }
 
-    public static void dealerThrow(){
+    public static boolean dealerThrow(){
         int dealerSum = diceRoll();
         int dealerLow = 17;
 
@@ -33,5 +33,9 @@ public class Dealer {
                 }
             }
         } while (dealerSum < dealerLow);
+        return false;
+    }
+
+    public void result(int i) {
     }
 }
