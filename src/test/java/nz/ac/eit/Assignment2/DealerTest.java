@@ -11,11 +11,19 @@ public class DealerTest {
     @Before
     public void setup(){
         dealer = new Dealer();
-        dealer.dealerThrow();
     }
 
     @Test
-    public void setDealer_DealerThrow_DealerLow(){
+    public void setDealer_DealerThrow_DealerLow_lessThan17(){
+        dealer.result(12);
+        boolean result = dealer.dealerThrow();
+        assertFalse(result);
+    }
 
+    @Test
+    public void setDealer_DealerThrow_DealerLow_moreThan17() {
+        dealer.result(19);
+        boolean result = dealer.dealerThrow();
+        assertFalse(result);
     }
 }
