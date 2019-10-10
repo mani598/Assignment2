@@ -32,7 +32,6 @@ public class Player {
                     break;
 
                 default:
-                    System.out.println("The input key "+gameInput+" is not supported, please enter y/n");
                     playerLoop = false;
                     break;
             }
