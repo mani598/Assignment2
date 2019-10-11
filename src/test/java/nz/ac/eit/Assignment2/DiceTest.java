@@ -14,7 +14,7 @@ public class DiceTest {
     }
 
     @Test
-    public void diceRoll_noLessThan1() {
+    public void diceRoll_LessThan1() {
         int diceRollValue = dice.diceRoll();
         boolean result = diceRollValue < 2;
         assertEquals("Both die should roll between 2 and 12, die rolled less than 2 result false", false,result);
