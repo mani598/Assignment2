@@ -21,7 +21,7 @@ public class DiceTest {
     }
 
     @Test
-    public void diceRoll_moreThan6() {
+    public void diceRoll_moreThan12() {
         int diceRollValue = dice.diceRoll();
         boolean result = diceRollValue > 12;
         assertEquals("Both die should roll between 2 and 12, die rolled more than 12 result false", false, result);
