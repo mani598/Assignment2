@@ -11,10 +11,10 @@ public class Player {
         System.out.println("You started out with: " + playerSum + "\n");
         while (playerLoop) {
             if (playerSum < 21) {
-                System.out.println("Would you like to throw the dices again? y/n");
+                System.out.println("Would you like to throw the dice again? y/n");
             }
             if (playerSum > 21) {
-                System.out.println("You lost by exceeded 21");
+                System.out.println("You lost by exceeding 21");
                 dealerWin++;
                 game();
             }
@@ -28,7 +28,7 @@ public class Player {
             switch (gameInput) {
                 case "y":
                     playerSum += diceRoll();
-                    System.out.println("You now got: " + playerSum);
+                    System.out.println("You now have: " + playerSum);
                     break;
 
                 default:
