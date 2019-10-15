@@ -4,7 +4,7 @@ import static nz.ac.eit.Assignment2.Dealer.*;
 import static nz.ac.eit.Assignment2.Player.*;
 
 public class Game {
-    public static void game(){
+    public static void game() throws InputShouldBeYOrNException {
         boolean gameLoop = true;
         while (gameLoop) {
             if (gameCounter == 0) {
@@ -21,11 +21,14 @@ public class Game {
                     player();
                     dealerThrow();
                     break;
-
-                default:
+                case "n":
                     System.out.println("... Goodbye ...");
                     gameLoop = false;
                     break;
+
+                default:
+                    throw new InputShouldBeYOrNException();
+
             }
         }
     }

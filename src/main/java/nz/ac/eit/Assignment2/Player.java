@@ -5,7 +5,7 @@ import static nz.ac.eit.Assignment2.Game.*;
 import static nz.ac.eit.Assignment2.Dealer.*;
 
 public class Player {
-    public static void player(){
+    public static void player() throws InputShouldBeYOrNException {
         boolean playerLoop = true;
         playerSum = diceRoll();
         System.out.println("You started out with: " + playerSum + "\n");
@@ -30,10 +30,12 @@ public class Player {
                     playerSum += diceRoll();
                     System.out.println("You now have: " + playerSum);
                     break;
-
-                default:
+                case "n":
                     playerLoop = false;
                     break;
+
+                default:
+                    throw new InputShouldBeYOrNException();
             }
         }
     }
