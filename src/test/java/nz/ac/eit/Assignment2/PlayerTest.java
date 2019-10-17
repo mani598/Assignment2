@@ -3,27 +3,24 @@ package nz.ac.eit.Assignment2;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.Scanner;
-
 import static nz.ac.eit.Assignment2.Dealer.*;
-import static nz.ac.eit.Assignment2.Dice.*;
+import static nz.ac.eit.Assignment2.Player.*;
 import static org.junit.Assert.*;
 
 public class PlayerTest {
 
-    /*private Player mmm;*/
+    private Player mmm;
 
-
-    /*@Before
-    public void setup() {
+    @Before
+    public void setUp() throws Exception {
         mmm = new Player();
-    }*/
+        playerSum = 21;
+    }
 
     @Test
-    public void test_player_rollResult() {
-        /*Player result = new Player();
-        playerSum = diceRoll();
-        System.out.println("You started out with: " + playerSum + "\n");
-        assertEquals(result,false);*/
+    public void player() {
+        int mmm;
+        boolean result = playerSum == 21;
+        assertEquals("", true,result);
     }
 }
