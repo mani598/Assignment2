@@ -22,3 +22,43 @@ The game requirements and conditions:
 18- The game console at the end of round will ask if the player wants to play again another round.
 19- If player choose "y" then will start another round or if choose "n" then the game will end with the message "Goodbye". (If player 
     enters anything other than 'n' or 'y' they get an exception then the game will ask the question again)
+
+Question and answer:
+Q1. What will happen when the user start the game?
+The console will output a welcome message include ("Welcome to the Blackjack Die game").
+
+Q2. Can you tell me more about dice?
+This game have 2 dice, each dice has 6 sided dice, and both dice have total 12
+
+Q3. Does the player have option to hit or hold the dice?
+Yes, the player can use a valid input like:
+"y" = can use for hit(throw) dice again, and to start a new round
+"n" = can use for hold dice, and to end the game
+
+Q4. What will happen if the player or the dealer get 21?
+If player or dealer get 21 that's mean (Blackjack) we have winner :-) and no need to continue the round.
+
+Q5. If player or dealer get more than 21 what will happen?
+That's mean there's a loser and a winner :-)
+the player will lose if get more than 21 and the dealer will win the round
+the dealer will lose if get more than 21 and the player will win the round
+
+Q6. Ok what will happen if the player or dealer didn't get 21 or more than 21?
+Easy, the winner who get nearest to 21 but not more than 21
+example: if player get 19 and the dealer get 17, that's mean the player wins the round.
+
+Q7. How the player can know the score for all rounds or how many rounds it played?
+When player end the round, the console will output:
+the score for player and dealer
+how many game or round the player played
+
+Q8. What will happen if the player add invalid input like b or c or numbers?
+The console should output a message include (Invalid input please choose “y” or “n”).
+
+Q9. Can i upgrade this game and add Features for this game in future?
+Yes off course you can.
+
+Q10. Last question, what Features i can add it to this game in future?
+You can add a userName: the player can create a userName or stay as player
+you can add human vs human: the player can decide to play with the other human player or dealer(computer)
+and more...
