@@ -23,6 +23,7 @@ The game requirements and conditions:
 19- If player choose "y" then will start another round or if choose "n" then the game will end with the message "Goodbye". (If player 
     enters anything other than 'n' or 'y' they get an exception then the game will ask the question again)
 
+
 Question and answer:
 Q1. What will happen when the user start the game?
 The console will output a welcome message include ("Welcome to the Blackjack Die game").
