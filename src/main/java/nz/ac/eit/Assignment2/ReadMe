@@ -24,6 +24,7 @@ The game requirements and conditions:
     enters anything other than 'n' or 'y' they get an exception then the game will ask the question again)
 
 
+
 Question and answer:
 Q1. What will happen when the user start the game?
 The console will output a welcome message include ("Welcome to the Blackjack Die game").
