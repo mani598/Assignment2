@@ -1,27 +1,28 @@
 Blackjack Die game.
 
 The game requirements and conditions:
-1- Coding a Blackjack die game in Java language.
-2- The game will be designed without interface (Console only).
-3- The console game have 4 classes (Dealer & Dice & Player & Game).
-4- The game has a Dealer, 1 player and 2 Dice.
-5- Start the game and then the user will get a welcome message "Welcome to the Blackjack Die game".
-6- After that the user will get start game message "Would you like to start the game? y/n".
-7- If player choose "n" option then the game will end with the message "Goodbye".
-8- If player choose "y" option then the game will start round. (If player enters anything other than 'n' or 'y' they get an exception then
+REQ-1 Coding a Blackjack die game in Java language.
+REQ-2 The game will be designed without interface (Console only).
+REQ-3 The console game have 4 classes (Dealer & Dice & Player & Game).
+REQ-4 The game has a Dealer, 1 player and 2 Dice.
+REQ-5 Start the game and then the user will get a welcome message "Welcome to the Blackjack Die game".
+REQ-6 After that the user will get start game message "Would you like to start the game? y/n".
+REQ-7 If player choose "n" option then the game will end with the message "Goodbye".
+REQ-8 If player choose "y" option then the game will start round. (If player enters anything other than 'n' or 'y' they get an exception then
    the game will ask the question again)
-9- Now the player can start the round by throwing the dice and get the result.
-10- The player can hit the dice again to get another number to Sum with the previous number.
-11- The player can hit dice until they get 21 or the nearest number to 21 then the player can decide to hold.
-12- After that the Dealer will hit the dice to try to beat the player's number.
-13- If player gets 21 the win message will show up and if Dealer gets 21 a lose message will show up.
-14- If player hit dice and exceeded 21 lose message will show up.
-15- If Dealer hit dice and exceeded 21 win message will show up.
-16- The game console will show you how many rounds you play (e.g. 1 time or 2 times or 3 times).
-17- The game console will show you at the end of round a small table showing how many time the player won & lost.
-18- The game console at the end of round will ask if the player wants to play again another round.
-19- If player choose "y" then will start another round or if choose "n" then the game will end with the message "Goodbye". (If player 
+REQ-9 Now the player can start the round by throwing the dice and get the result.
+REQ-10 The player can hit the dice again to get another number to Sum with the previous number.
+REQ-11 The player can hit dice until they get 21 or the nearest number to 21 then the player can decide to hold.
+REQ-12 After that the Dealer will hit the dice to try to beat the player's number.
+REQ-13 If player gets 21 the win message will show up and if Dealer gets 21 a lose message will show up.
+REQ-14 If player hit dice and exceeded 21 lose message will show up.
+REQ-15 If Dealer hit dice and exceeded 21 win message will show up.
+REQ-16 The game console will show you how many rounds you play (e.g. 1 time or 2 times or 3 times).
+REQ-17 The game console will show you at the end of round a small table showing how many time the player won & lost.
+REQ-18 The game console at the end of round will ask if the player wants to play again another round.
+REQ-19 If player choose "y" then will start another round or if choose "n" then the game will end with the message "Goodbye". (If player
     enters anything other than 'n' or 'y' they get an exception then the game will ask the question again)
+
 
 Question and answer:
 Q1. What will happen when the user start the game?
