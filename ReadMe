@@ -1,0 +1,66 @@
+Blackjack Die game.
+
+The game requirements and conditions:
+REQ-1 Coding a Blackjack die game in Java language.
+REQ-2 The game will be designed without interface (Console only).
+REQ-3 The console game have 4 classes (Dealer & Dice & Player & Game).
+REQ-4 The game has a Dealer, 1 player and 2 Dice.
+REQ-5 Start the game and then the user will get a welcome message "Welcome to the Blackjack Die game".
+REQ-6 After that the user will get start game message "Would you like to start the game? y/n".
+REQ-7 If player choose "n" option then the game will end with the message "Goodbye".
+REQ-8 If player choose "y" option then the game will start round. (If player enters anything other than 'n' or 'y' they get an exception then
+   the game will ask the question again)
+REQ-9 Now the player can start the round by throwing the dice and get the result.
+REQ-10 The player can hit the dice again to get another number to Sum with the previous number.
+REQ-11 The player can hit dice until they get 21 or the nearest number to 21 then the player can decide to hold.
+REQ-12 After that the Dealer will hit the dice to try to beat the player's number.
+REQ-13 If player gets 21 the win message will show up and if Dealer gets 21 a lose message will show up.
+REQ-14 If player hit dice and exceeded 21 lose message will show up.
+REQ-15 If Dealer hit dice and exceeded 21 win message will show up.
+REQ-16 The game console will show you how many rounds you play (e.g. 1 time or 2 times or 3 times).
+REQ-17 The game console will show you at the end of round a small table showing how many time the player won & lost.
+REQ-18 The game console at the end of round will ask if the player wants to play again another round.
+REQ-19 If player choose "y" then will start another round or if choose "n" then the game will end with the message "Goodbye". (If player
+    enters anything other than 'n' or 'y' they get an exception then the game will ask the question again)
+
+
+
+Question and answer:
+Q1. What will happen when the user start the game?
+The console will output a welcome message include ("Welcome to the Blackjack Die game").
+
+Q2. Can you tell me more about dice?
+This game have 2 dice, each dice has 6 sided dice, and both dice have total 12
+
+Q3. Does the player have option to hit or hold the dice?
+Yes, the player can use a valid input like:
+"y" = can use for hit(throw) dice again, and to start a new round
+"n" = can use for hold dice, and to end the game
+
+Q4. What will happen if the player or the dealer get 21?
+If player or dealer get 21 that's mean (Blackjack) we have winner :-) and no need to continue the round.
+
+Q5. If player or dealer get more than 21 what will happen?
+That's mean there's a loser and a winner :-)
+the player will lose if get more than 21 and the dealer will win the round
+the dealer will lose if get more than 21 and the player will win the round
+
+Q6. Ok what will happen if the player or dealer didn't get 21 or more than 21?
+Easy, the winner who get nearest to 21 but not more than 21
+example: if player get 19 and the dealer get 17, that's mean the player wins the round.
+
+Q7. How the player can know the score for all rounds or how many rounds it played?
+When player end the round, the console will output:
+the score for player and dealer
+how many game or round the player played
+
+Q8. What will happen if the player add invalid input like b or c or numbers?
+The console should output a message include (Invalid input please choose “y” or “n”).
+
+Q9. Can i upgrade this game and add Features for this game in future?
+Yes off course you can.
+
+Q10. Last question, what Features i can add it to this game in future?
+You can add a userName: the player can create a userName or stay as player
+you can add human vs human: the player can decide to play with the other human player or dealer(computer)
+and more...
